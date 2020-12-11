@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Texturina:wght@100&display=swap');
+
+body{
+    background-image: url(background.jpg);
+}
+
+.left{
+    float: left;
+    width: 25%;
+    padding: 5px;
+}
+
+.content{
+    width: 50%;
+    float: left;
+    padding: 5px;
+}
+
+.config{
+    color: white;
+    text-align: center;
+}
+
+.columns{
+    margin: 3px;
+    padding: 2px;
+    background-color: rgba(0,0,0,0.5);
+    width: 23.5%;
+    float: left;
+}
+
+.columns:hover{
+    background-color: black;
+}
+
+.name{
+    font-weight: bold;
+    border-style: solid;
+    border-color: solid;
+    font-family: 'Texturina', serif;
+}
+
+h2{
+    font-family: 'Texturina', serif;
+    background-color: rgba(0,0,0,0.7);
+    border-style: dashed;
+    border-color: white;
+    width: 100%;
+    float: left;
+}
+
+h2:hover{
+    background-color:black;
+}
+.name:hover{
+    border-color: yellow;
+    color: yellow;
+}
+
+.pseudoInput{
+    background-color: rgba(0,0,0,0.5);
+    font-family: 'Texturina', serif;
+    padding: 2px;
+}
+
+.pseudoInput:hover{
+    background-color: black;
+}
+
+.info{
+    font-style: italic;
+    text-align: left;
+}
+
+#miniature{
+    width: 95%;
+}
+
+.right{
+    width: 30%;
+    float: left;
+    padding: 5px;
+}
+
+#launchGame:hover{
+    color: yellow;
+    border-color: yellow;   
+}
+
+#copyrights{
+    font-style: italic;
+};

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>MAGIC RPG - GAME</title>
+        <link rel="stylesheet" href="global.css">
+        <link rel="stylesheet" href="game.css">
+        <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+        <script type="text/javascript" src="main.js" defer></script>
+    </head>
+
+    <body>
+        <div class="row">
+            <div id="persoInfos" class="perso">
+                <p id="playerName">NOM</p>
+                <p id="persoName">PERSO</p>
+                <hr>
+                <p id="persoHp">PTS VIE</p>
+                <p id="persoMp">PTS MAGIE</p>
+                <hr>
+                <p id="persoGolden">OR RESTANT</p>
+                <p> </p>
+            </div>
+
+            <div class="space">
+                <p> </p>
+            </div>
+    
+            <div class="content">
+                <h1>MAGIC RPG</h1>
+                <h2 id="arenaName">ARENA NAME</h2>
+                <div class="history">
+                    <p id="histo1">ADVERSAIRE</p>
+                    <p id="histo2">----------</p>
+                    <p id="histo3">----------</p>
+                    <p id="histo4">----------</p>
+                    <p id="histo5">----------</p>
+                </div>
+            </div>
+
+            <div class="options">
+                <p id="nameWeapon">NOM ARME</p>
+                <p id="levelWeapon">Niveau 1</p>
+                <button id="boostWeapon">BOOST : 100 Or</button>
+                <hr>
+                <p id="nameProtection">NOM PROTECTION</p>
+                <p id="levelProtection">Niveau 1</p>
+                <button id="boostProtection">BOOST : 100 Or</button>
+                <hr>
+                <p id="nameMagic">NOM MAGIE</p>
+                <p id="levelMagic">Niveau 1</p>
+                <button id="boostMagic">BOOST : 200 Or</button>
+                <hr>
+                <p id="restoreHp">RESTAURER VIE</p>
+                <button id="actionRestoreHp">COUT : 500 Or</button>
+                <hr>
+                <p id="restoreMp">RESTAURER MAGIE</p>
+                <button id="actionRestoreMp">COUT : 500 Or</button>
+                <p> </p>
+            </div>
+        </div>
+        
+        <div class="details">
+            <p id="detailsClass"></p>
+            <p id="detailsHp"></p>
+            <p id="detailsMp"></p>
+            <p id="detailsAtk"></p>
+            <p id="detailsDef"></p>
+            <p id="detailsMagic"></p>
+            <p id="detailsDefMagic"></p>
+            <p id="detailsDodge"></p>
+            <p id="detailsSpeed"></p>
+        </div>
+
+        <div class="actions">
+            <button id="actionsAtk">ATTAQUE</button>
+            <button id="actionsDef">DEFENSE</button>
+            <button id="actionsSpell">UTILISER UN SORT</button>
+            <button id="actionsEscape">FUIR</button>
+        </div>
+        
+    </body>
+</html>

@@ -1,0 +1,20 @@
+/*import de la police du titre */
+@import url('https://fonts.googleapis.com/css2?family=Nerko+One&display=swap');
+
+h1{
+    background-color: rgba(0,0,0,0.7);
+    color: white;
+    text-align: center;
+    font-family: 'Nerko One', cursive;
+    border-style: solid;
+    border-color: white;
+    width: 100%;
+}
+
+h1:hover{
+    background-color:black;
+}
+
+body{
+    font-family: sans-serif;
+}

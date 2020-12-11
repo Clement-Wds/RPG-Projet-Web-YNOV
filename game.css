@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Texturina:wght@100&display=swap');
+
+body{
+    background-image: url(arena_clock.jpg);
+}
+
+h2{
+    text-align: center;
+    color: white;
+    background-color: rgba(0,0,0,0.5);
+    width: 100%;
+    font-family: 'Texturina', serif;
+}
+
+h2:hover{
+    background-color: black;
+}
+
+button{
+    color: black;
+    background-color: white;
+    border-color: white;
+}
+
+button:hover{
+    background-color: black;
+    color: white;
+    border-color: black;
+}
+
+.perso{
+    font-family: 'Texturina', serif;
+    color: white;
+    float: left;
+    width: 15%;
+    background-color: rgba(0,0,0,0.5);
+    border-style: dashed;
+    border-color: white;
+    padding: 5px;
+}
+
+.perso:hover{
+    background-color: black;
+}
+
+.space{
+    float: left;
+    width: 15%;
+}
+
+.content{
+    float: left;
+    width: 40%;
+}
+
+.options{
+    font-family: 'Texturina', serif;
+    color: white;
+    float: right;
+    text-align: center;
+    width: 15%;
+    background-color: rgba(0,0,0,0.5);
+    border-style: dashed;
+    border-color: white;
+    padding: 5px;
+}
+
+.options:hover{
+    background-color: black;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.history{
+    position: center;
+    text-align: center;
+    background-color: rgba(0,0,0,0.5);
+    color: white;
+    width: 100%;
+}
+
+.history:hover{
+    background-color: black;
+}
+
+.actions{
+    position: static;
+    text-align: center;
+    width: 100%;
+}
+
+#actionsAtk, #actionsDef, #actionsEscape, #actionsSpell{
+    width : 10%;
+}

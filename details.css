@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Texturina:wght@100&display=swap');
+
+body{
+    background-image: url(background.jpg);
+}
+
+h1{
+    float: left;
+    width: 100%;
+}
+
+h2{
+    color: white;
+    text-align: center;
+    font-family: 'Texturina', serif;
+    background-color: rgba(0,0,0,0.7);
+    border-style: dashed;
+    border-color: white;
+    float: left;
+    width: 100%;
+}
+
+.infos{
+    color: white;
+    text-align: center;
+    font-family: 'Texturina', serif;
+    background-color: rgba(0,0,0,0.7);
+    float:left;
+    width: 100%;
+}
+
+h2:hover{
+    background-color: black;
+    border-color: yellow;
+    color: yellow;
+}
+
+.infos:hover{
+    background-color: black;
+}
+
+p:hover{
+    color: yellow;
+    font-size: 1.2rem;
+}
+
+img{
+    float: right;
+}
